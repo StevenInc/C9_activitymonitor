@@ -1,0 +1,117 @@
+thead {
+    color: #337AB7;
+}
+
+tbody {
+    color: #404040;
+}
+
+.customHeaderBar{
+    background-color: #6B4291;
+    border-color: #543372;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1100;
+}
+
+
+.panel-primary{
+    border-color: #543372;
+}
+
+.leftHeaderGlyph{
+    float: left;
+    color: white;
+    font-size: 16pt;
+}
+
+.rightHeaderGlyph{
+    float: right;
+    color: white;
+    font-size: 16pt;
+}
+
+.activityContainer{
+    position: relative;
+}
+
+.leftMarginCover{
+    position: absolute;
+    top: -1px;
+    left: 1px;
+    height: 100%;
+    background-color: #FFFFFF;
+    width: 15px;
+    z-index: 1000;
+}
+
+.activityItem{
+    display: block;
+    min-height: 65px;
+    padding: 10px 0 0 10px;
+    box-sizing: border-box;
+    border-right: silver 1px solid;
+    border-bottom: silver 1px solid;
+    border-left: silver 1px solid;
+}
+
+.iconContainer{
+    margin-left: 3px;
+    float: left;
+}
+
+.roundIconGrayBorder{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px silver solid;
+}
+
+.activityInfo{
+    margin-left: 60px;
+}
+
+.authorName{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11.5pt;
+    color: #393A3C;
+}
+
+.activityType{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    color: #808487;
+}
+
+
+.activityTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+    color: #393A3C;
+}
+
+.timeDiff{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11.0pt;
+    font-style: italic;
+    color: #808487;
+}
+
+
+
+.bottomBorder{
+    width:90%;
+    border-top: 1px silver solid;
+    height: 1px;
+    float:right;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.clearFloat{
+    clear: both;
+}
+

@@ -1,0 +1,31 @@
+<div class="panel">
+    <div class="panel-heading customHeaderBar">
+        <span class="glyphicon glyphicon-menu-left leftHeaderGlyph"></span>
+        {{pageTitle}}
+        <span class="glyphicon glyphicon-menu-hamburger rightHeaderGlyph"></span>
+    </div>
+
+    <div class="activityContainer">
+        <div class="leftMarginCover"></div>
+        <div *ngFor='#contact of contacts' class="activityItem">
+              <div class="iconContainer">
+                <img [src]='contact.authorAvatar' 
+                    [title]='contact.author'
+                    [style.width.px]='iamgeWidth'
+                    [style.margin.px]='imageMargin'
+                    [class] = 'iconRound'>
+                </div>    
+                <div class="activityInfo">
+                    <div>
+                        <span class="authorName">{{contact.author}}</span>
+                        <span class="activityType">{{contact.nodeTypeString | activityTypeMap}}</span>
+                    </div>
+                    <div class="activityTitle">{{contact.title}}</div>
+                    <div class="timeDiff">{{contact.postDate | timeAgo}}</div>
+                </div>
+                
+            <div class="clearFloat"></div>
+         </div>
+     </div>
+
+</div>
